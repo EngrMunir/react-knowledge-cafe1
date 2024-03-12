@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "cover": "https://i.ibb.co/WxxC2sQ/1.jpg",
+      "title": "Lorem Ipsum",
+      "author": "John Doe",
+      "author_img": "https://i.ibb.co/kDS4c63/boy1.png",
+      "posted_date": "2023-09-16",
+      "reading_time": 10,
+      "hashtags": ["technology", "programming", "coding"]
+    },
+    {
+      "id": 2,
+      "cover": "https://i.ibb.co/wr2Sw4H/2.png",
+      "title": "Artificial Intelligence 101",
+      "author": "Jane Smith",
+      "author_img": "https://i.ibb.co/qykjQzk/boy2.jpg",
+      "posted_date": "2023-09-15",
+      "reading_time": 8,
+      "hashtags": ["AI", "machine_learning", "data_science"]
+    },
+    {
+      "id": 3,
+      "cover": "https://i.ibb.co/nBN5cym/3.png",
+      "title": "Cooking Adventures",
+      "author": "Alice Johnson",
+      "author_img": "https://i.ibb.co/F6gGqQ7/girl1.jpg",
+      "posted_date": "2023-09-14",
+      "reading_time": 15,
+      "hashtags": ["cooking", "recipes", "food"]
+    },
+    {
+      "id": 4,
+      "cover": "https://i.ibb.co/y0mGPWf/4.jpg",
+      "title": "Travel Diaries",
+      "author": "Robert Green",
+      "author_img": "https://i.ibb.co/9hqyL2H/girl2.jpg",
+      "posted_date": "2023-09-13",
+      "reading_time": 12,
+      "hashtags": ["travel", "adventure", "exploration"]
+    }
+  ]

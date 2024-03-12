@@ -3,7 +3,7 @@ import { BsBookmarkStarFill } from "react-icons/bs";
 
 const Blog = ({blog, handleAddToBookmark, handleMarkAsRead}) => {
 
-const { title, cover, author, author_img, posted_date, reading_time, hashtags } = blog;
+const {id, title, cover, author, author_img, posted_date, reading_time, hashtags } = blog;
 
     // console.log(blog);
     return (
@@ -28,7 +28,7 @@ const { title, cover, author, author_img, posted_date, reading_time, hashtags } 
                     hashtags.map((hash,idx) => <span key={idx}><a href=''>#{hash}</a></span> )
                 }
             </p>
-            <button onClick={()=>handleMarkAsRead(reading_time)} className='text-purple-800 font-bold underline'>Mark As Read</button>
+            <button onClick={()=>handleMarkAsRead(id, reading_time)} className='text-purple-800 font-bold underline'>Mark As Read</button>
         </div>
     );
 };

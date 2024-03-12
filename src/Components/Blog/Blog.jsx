@@ -19,7 +19,7 @@ const { title, cover, author, author_img, posted_date, reading_time, hashtags } 
                 </div>
                 <div>
                     <span>{reading_time} min read</span>
-                    <button onClick={handleAddToBookmark} className='ml-2 text-2xl text-red-600'><BsBookmarkStarFill /> </button>
+                    <button onClick={()=>handleAddToBookmark(blog)} className='ml-2 text-2xl text-red-600'><BsBookmarkStarFill /> </button>
                 </div>
             </div>
             <h2 className='text-4xl'>{title}</h2>
@@ -33,6 +33,7 @@ const { title, cover, author, author_img, posted_date, reading_time, hashtags } 
 };
 
 Blog.propTypes ={
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleAddToBookmark: PropTypes.func
 }
 export default Blog;
